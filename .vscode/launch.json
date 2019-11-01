@@ -1,0 +1,60 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - CollectionEx1",
+      "request": "launch",
+      "mainClass": "ultima.CollectionEx1",
+      "projectName": "java-gradle"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Vehicle",
+      "request": "launch",
+      "mainClass": "javagradle.Vehicle",
+      "projectName": "java-gradle"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - HashTable",
+      "request": "launch",
+      "mainClass": "javagradle.HashTable",
+      "projectName": "java-gradle"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - NestedCollection",
+      "request": "launch",
+      "mainClass": "ultima.NestedCollection",
+      "projectName": "java-gradle"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - App",
+      "request": "launch",
+      "mainClass": "javagradle.App",
+      "projectName": "java-gradle"
+    },
+    {
+      "type": "java",
+      "name": "JavaRun",
+      "request": "launch",
+      "mainClass": "${file}",
+      "sourcePaths": [
+        ".",
+        "${fileDirname}"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopOnEntry": true,
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    }
+  ]
+}
