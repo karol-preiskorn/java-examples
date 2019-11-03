@@ -36,8 +36,9 @@ public class NestedCollection {
 
             // printing the list
             System.out.println("The List<String> is: " + list);
-            // FIXME make static
-            listL.add(List.of("A", "C", "B"));
+            // FIXME make static - Cannot make a static reference to the non-static field
+            // l
+            list.add("A");
 
         } catch (NullPointerException e) {
             System.out.println("Exception thrown : " + e);

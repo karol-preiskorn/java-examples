@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Vehicle",
+      "request": "launch",
+      "mainClass": "ultima.Vehicle",
+      "projectName": "java-gradle"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - HashTable",
+      "request": "launch",
+      "mainClass": "ultima.HashTable",
+      "projectName": "java-gradle"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - CollectionEx1",
       "request": "launch",
       "mainClass": "ultima.CollectionEx1",

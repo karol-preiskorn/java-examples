@@ -2,7 +2,7 @@ package ultima;
 
 import java.util.Hashtable;
 
-//
+// one method (wrong!)
 // @SuppressWarnings("unchecked")
 class HashTable {
     public static void main(String[] arg) {
@@ -34,7 +34,8 @@ class HashTable {
         System.out.println(">h1: " + h1);
         System.out.println(">h2: " + h2);
 
-        Hashtable<?, ?> h3 = (Hashtable<?, ?>) h2.clone();
+        // proper way create a clone or shallow copy of hash table h
+        Hashtable<?, ?> h3 = (Hashtable<?, ?>) h.clone();
         // String s = (String) h3.get("Qq");
         // System.out.println(">(String) h3.get(0): " + s);
         System.out.println(">(String) h3: " + h3);
