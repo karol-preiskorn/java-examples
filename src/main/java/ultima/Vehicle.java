@@ -3,21 +3,31 @@ package ultima;
 import java.util.Optional;
 
 public class Vehicle {
-    private Optional<MusicSystem> musicSystem;
+  private Optional<MusicSystem> musicSystem;
 
-    public Optional<MusicSystem> getMusicSystem() {
-        return musicSystem;
-    }
+  /**
+   * @return Optional<MusicSystem>
+   */
+  public Optional<MusicSystem> getMusicSystem() {
+    return musicSystem;
+  }
 
-    private static final Logger LOGGER = org.apache.Logger.LogManager.getLogger();
+  // private static final Logger LOGGER =
+  // org.apache.Logger.LogManager.getLogger();
 
-    public static void main(String[] args) {
-        MusicSystem lc_ms = new MusicSystem();
-        Optional<MusicSystem> music_system = Optional.of(lc_ms);
-        System.out.println("Non-Empty Optional: musicsystem value : " + music_system.get());
-        System.out.println("ofNullable on Non-Empty Optional: " + Optional.ofNullable(lc_ms));
-        LOGGER.debug("Debug Message Logged !!");
-        LOGGER.info("Info Message Logged !!");
-        LOGGER.debug("Another Debug Message !!");
-    }
+  /**
+   * main class
+   *
+   * @param args
+   *
+   */
+  public static void main(String[] args) {
+    MusicSystem lcMusicSystem = new MusicSystem();
+    Optional<MusicSystem> musicSystem = Optional.of(lcMusicSystem);
+    System.out.println("Non-Empty Optional: musicsystem value : " + musicSystem.get());
+    System.out.println("ofNullable on Non-Empty Optional: " + Optional.ofNullable(lcMusicSystem));
+    // LOGGER.debug("Debug Message Logged !!");
+    // LOGGER.info("Info Message Logged !!");
+    // LOGGER.debug("Another Debug Message !!");
+  }
 }

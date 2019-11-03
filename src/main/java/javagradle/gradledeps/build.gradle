@@ -1,0 +1,29 @@
+apply plugin: 'application'
+
+mainClassName = "javagradle.gradle-deps.DownloadDependencies"
+
+jar {
+    baseName = 'DownloadDependencies'
+    version =  '0.1.0'
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+
+    // Add your project's dependencies here
+
+    // e.g.:
+
+    // Spring dependencies
+    compile("org.springframework:spring-jdbc:4.1.5.RELEASE")
+
+    // Use JUnit Jupiter API for testing.
+    compile 'org.junit.jupiter:junit-jupiter-api:5.4.2'
+
+    // Use JUnit Jupiter Engine for testing.
+    compile 'org.junit.jupiter:junit-jupiter-engine:5.4.2'
+}

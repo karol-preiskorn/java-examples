@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - DownloadDependencies",
+      "request": "launch",
+      "mainClass": "javagradle.DownloadDependencies",
+      "projectName": "java-gradle"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - Vehicle",
       "request": "launch",
       "mainClass": "ultima.Vehicle",
