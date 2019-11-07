@@ -28,13 +28,13 @@ dependencies {
 
     // Use JUnit Jupiter Engine for testing.
     compile 'org.junit.jupiter:junit-jupiter-engine:5.4.2'
-
+    implementation 'com.google.code.gson:gson:2.8.6'
 
 }
 
 application {
     // Define the main class for the application
-    mainClassName = 'javagradle.gradle-deps.DownloadDependencies'
+    mainClassName = 'javagradle.blockchain.NoobChain'
 }
 
 test {

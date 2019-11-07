@@ -5,12 +5,12 @@ import java.security.MessageDigest;
 public class StringUtil {
 
   /**
-   * Apply SHA256 to input.
+   * Apply SHA256 to input. Applies Sha256 to a string and returns the result.
    *
    * @param input
-   * @return String
+   * @return String hexString.toString()
    */
-  // Applies Sha256 to a string and returns the result.
+
   public static String applySha256(String input) {
     try {
       MessageDigest digest = MessageDigest.getInstance("SHA-256");

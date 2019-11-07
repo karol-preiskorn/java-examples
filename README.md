@@ -1,17 +1,31 @@
-# Java examples
+# package examples
 
-Some execises and examples in Java language.
+Some execises and examples in Java language. Articles describet this examples are here:
 
 - https://www.ultimasolution.pl/casting-type-in-java-type-safety-unchecked-cast-from-object-to-hashtable/
 - https://www.ultimasolution.pl/list/
 
-## NestedCollections.java
+## Programs
 
-## HashTable.java
+### NestedCollections.java
 
-## Vechicle.java
+### HashTable.java
+
+### Vechicle.java
 
 Optionals in Java
+
+# package blockchain
+
+Simple blockchain based on the article in medium https://medium.com/programmers-blockchain/create-simple-blockchain-java-tutorial-from-scratch-6eeed3cb03fa
+
+## Block.java
+
+Simple bloc
+
+## NoobChain.java
+
+## StringUtil.java
 
 # History
 
