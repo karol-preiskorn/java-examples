@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - NoobChainV2",
+      "request": "launch",
+      "mainClass": "blockchain.NoobChainV2",
+      "projectName": "java-gradle"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - NoobChain",
       "request": "launch",
       "mainClass": "blockchain.NoobChain",
