@@ -19,6 +19,8 @@ Optionals in Java
 
 Simple blockchain based on the article in medium https://medium.com/programmers-blockchain/create-simple-blockchain-java-tutorial-from-scratch-6eeed3cb03fa
 
+Describe this implementation: https://www.ultimasolution.pl/blockchain-in-java/
+
 ## Block.java
 
 Simple bloc
