@@ -4,20 +4,21 @@
 
 package blockchain;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.DisplayName;
-
 import org.junit.jupiter.api.Test;
-import blockchain.Wallet;
+
+import java.util.Arrays;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class WalletTest {
   @Test
   @DisplayName("chceck generated keys")
   void appHasAGreeting() {
     Wallet classUnderTest = new Wallet();
-    System.out.println("Test: " + classUnderTest.get());
-    assertEquals("B", classUnderTest.get());
+    System.out.println("Test: " + Arrays.toString(classUnderTest.getPublicKey().getEncoded()));
+    assertEquals("EC Private Key\n" +
+            "             S: b3d982e946d2a2f3534e85395578c62d22d3e8b63649523c", classUnderTest.getPrivateKey().toString());
   }
 
 }
