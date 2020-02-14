@@ -7,9 +7,7 @@ import java.util.Hashtable;
 class HashTable {
     public static void main(String[] arg) {
         // creating a hash table
-        Hashtable<Integer, String> h = new Hashtable<Integer, String>();
-        Hashtable<Integer, String> h1 = new Hashtable<Integer, String>();
-        Hashtable<Integer, String> h2 = new Hashtable<Integer, String>();
+        Hashtable<Integer, String> h = new Hashtable<>();
 
         h.put(3, "Geeks");
         h.put(2, "forGeeks");
@@ -20,8 +18,9 @@ class HashTable {
         h.put(6, "Qq");
 
         // create a clone or shallow copy of hash table h
-        h1 = (Hashtable<Integer, String>) h.clone();
-        h2 = (Hashtable<Integer, String>) h1.clone();
+        var h1 = (Hashtable<Integer, String>) h.clone();
+        var h2 = (Hashtable<Integer, String>) h1.clone();
+
         System.out.println("-- start --");
         System.out.println(">h: " + h);
         System.out.println("clone h->h1: " + h1);
