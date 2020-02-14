@@ -9,9 +9,9 @@ https://www.ultimasolution.pl/casting-type-in-java-type-safety-unchecked-cast-fr
 https://www.ultimasolution.pl/list/
 
 ### Nested Collections
-\src\main\java\ultima\CollectionEx1.java
+https://github.com/karol-preiskorn/java-examples/blob/master/src/main/java/ultima/CollectionsEx1.java
 ```java
-import java.util.Hashtable;
+import java.util.Hashtax1le;
 
 // one method (wrong!)
 // @SuppressWarnings("unchecked")
